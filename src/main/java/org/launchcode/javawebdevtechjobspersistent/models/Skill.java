@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 public class Skill extends AbstractEntity {
-    @NotBlank(message = "Skil description is required.")
+    @NotBlank(message = "Skill description is required.")
     @Size(min = 10)
     private String Skill_Description;
 
